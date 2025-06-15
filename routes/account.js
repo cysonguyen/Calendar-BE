@@ -14,6 +14,6 @@ router.post("/import", authorizeValidUser(ROLES.LEADER), accountController.impor
 router.post("/staff", authorizeValidUser(ROLES.LEADER), accountController.createStaffUser);
 router.post("/group", authorizeValidUser(ROLES.LEADER), accountController.createGroup);
 router.put("/group/:id", authorizeValidUser(ROLES.LEADER), accountController.updateGroup);
-router.delete("/group/:id", authorizeValidUser(ROLES.LEADER), accountController.deleteGroup);
+router.delete("/group/:id", authorizeValidUser(ROLES.LEADER), accountController.deleteGroup); 
 
 module.exports = router;
