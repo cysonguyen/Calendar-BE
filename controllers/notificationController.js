@@ -1,6 +1,6 @@
 const { Notification } = require("../models");
 
-const pageSize = 10;
+const pageSize = 100;
 
 module.exports = {
     getAllNotification: async (req, res) => {

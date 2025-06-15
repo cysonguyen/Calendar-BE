@@ -11,7 +11,7 @@ const sequelize = require("../config/sequelize");
 const SSEService = require("../lib/sseService");
 const ScheduleGroup = require("../models/scheduleGroup");
 const { JOB_STATUS } = require("../utils/const");
-const pageSize = 10;
+const pageSize = 100;
 
 module.exports = {
   async getSchedulesByUserId(req, res) {

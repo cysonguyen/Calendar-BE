@@ -1,0 +1,9 @@
+node_modules
+.git
+.env*
+npm-debug.log*
+README.md
+.vscode
+*.log
+migrations
+test.js 
